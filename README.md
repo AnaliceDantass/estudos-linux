@@ -33,3 +33,6 @@ Para ver o conteúdo do seu diretório atual, use **ls**. Isso vai listar os arq
 Este comando lista o conteúdo do seu diretório home, que pode ser diferente do seu diretório atual. 
 
 Entender a distinção entre seu diretório de trabalho atual e seu diretório doméstico é importante para navegar efizcamente pelo sistema de arquivos Linux. 
+
+# Navegando pelo Sistema de Arquivos
+O Linux usa o que chamamos de "sistema de arquivos hierárquico". Pense nisso como uma grande árvore com galhos. O tronco principal é chamado de "diretório raiz", representado por única barra transversal. Todos os outros diretórios e arquivos se ramificam a partir dessa raiz. 
