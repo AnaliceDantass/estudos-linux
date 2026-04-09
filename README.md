@@ -22,3 +22,6 @@ Ao rodar o comando **id**, você terá acesso à informações relacionadas ao u
 
 ## id -un
 Apresenta o seu nome de usuário e também é responsável por exibir o usuário atual.
+
+## pwd 
+**pwd** significa "print working directory". Ele mostra sua localização atual no sistema de arquivos. Esse comando é crucial para se orientar na estrutura de arquivos do Linux. 
