@@ -41,7 +41,15 @@ No Linux, o conceito de unidades, como visto no Windows (Ex. C:, D:, etc.), não
 - **/usr:** Conteúdo para usuários.É onde se encontra a maior parte dos programas instalados. O subdiretório /usr/bin é o mais povoado (com cerca de 2000 programas). Se você está em busca de um programa, esse subdiretório é um bom ponto de partida.
 - **/var:** Dados variáveis do sistema.
 
-# Navegando sobre os diretórios
+# Listando arquivos e diretórios 
 
-## 
+- **ls -l:** Fornece uma listagem no formato "longo". Você verá detalhes adicionais como permissões de arquivo, proprietário, tamanho e data de modificação.
+
+## ls
+Para ver o conteúdo do seu diretório atual, use **ls**. Isso vai listar os arquivos e diretórios no seu diretório de trabalho atual. 
+
+## ls ~
+Este comando lista o conteúdo do seu diretório home, que pode ser diferente do seu diretório atual. 
+
+Entender a distinção entre seu diretório de trabalho atual e seu diretório doméstico é importante para navegar efizcamente pelo sistema de arquivos Linux. 
 
