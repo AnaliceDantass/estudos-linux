@@ -25,3 +25,11 @@ Apresenta o seu nome de usuário e também é responsável por exibir o usuário
 
 ## pwd 
 **pwd** significa "print working directory". Ele mostra sua localização atual no sistema de arquivos. Esse comando é crucial para se orientar na estrutura de arquivos do Linux. 
+
+## ls
+Para ver o conteúdo do seu diretório atual, use **ls**. Isso vai listar os arquivos e diretórios no seu diretório de trabalho atual. 
+
+## ls ~
+Este comando lista o conteúdo do seu diretório home, que pode ser diferente do seu diretório atual. 
+
+Entender a distinção entre seu diretório de trabalho atual e seu diretório doméstico é importante para navegar efizcamente pelo sistema de arquivos Linux. 
