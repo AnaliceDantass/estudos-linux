@@ -10,3 +10,12 @@ Além do kernel, o Linux utiliza diversos componentes, como bibliotecas do siste
 
 ## whoami:
 Caso você esteja num computador que tem como sistema operacional o Linux, e quiser saber qual usuário está atualmente autenticado na sessão, digite **whoami**. 
+
+No linux, os usuários são armazenados em grupos. Esses grupos determinam permissões e direitos de acesso que um usuário possui. 
+
+## id
+Ao rodar o comando **id**, você terá acesso à informações relacionadas ao usuário que está atualmente autenticado na sessão. 
+
+- **uid:**
+- **gid:**
+- **groups:**
