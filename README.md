@@ -26,18 +26,22 @@ Apresenta o seu nome de usuário e também é responsável por exibir o usuário
 ## pwd 
 **pwd** significa "print working directory". Ele mostra sua localização atual no sistema de arquivos. Esse comando é crucial para se orientar na estrutura de arquivos do Linux. 
 
-## ls
-Para ver o conteúdo do seu diretório atual, use **ls**. Isso vai listar os arquivos e diretórios no seu diretório de trabalho atual. 
+# Explorando a Hierarquia de Diretórios
 
-## ls ~
-Este comando lista o conteúdo do seu diretório home, que pode ser diferente do seu diretório atual. 
+No Linux, o conceito de unidades, como visto no Windows (Ex. C:, D:, etc.), não se aplica. Em vez disso, há um diretório raiz (“/”), do qual se ramificam vários subdiretórios, que descrevemos abaixo:
 
-Entender a distinção entre seu diretório de trabalho atual e seu diretório doméstico é importante para navegar efizcamente pelo sistema de arquivos Linux. 
+- **/bin:** O diretório bin armazena executáveis de comandos básicos do sistema (su, tar, cat, rm, pwd, etc).
+- **/boot:** Arquivos para inicialização do sistema.
+- **/dev:** Arquivos para dispositivos. Contém os dispositivos (links para dispositivos do sistema, como CD, HD, disquetes, etc).
+- **lib:** Bibliotecas para o sistema. Contém as bibliotecas (similar às DLLs do Windows) usadas pelos programas. Existem dois tipos de bibliotecas: as usadas por um único programa (extensão .a) e as compartilhadas por vários programas (extensão .so).
+- **/mnt e /media:** Pontos de montagem de dispositivos. É o subdiretório utilizado como ponto de montagem para dispositivos externos.
+- **/proc:** Informações sobre o Kernel e processos.
+- **/sbin:** Ferramentas de administração do sistema.
+- **/tmp:** Arquivos temporários.
+- **/usr:** Conteúdo para usuários.É onde se encontra a maior parte dos programas instalados. O subdiretório /usr/bin é o mais povoado (com cerca de 2000 programas). Se você está em busca de um programa, esse subdiretório é um bom ponto de partida.
+- **/var:** Dados variáveis do sistema.
 
-# Navegando pelo Sistema de Arquivos
-O Linux usa o que chamamos de "sistema de arquivos hierárquico". Pense nisso como uma grande árvore com galhos. O tronco principal é chamado de "diretório raiz", representado por única barra transversal. Todos os outros diretórios e arquivos se ramificam a partir dessa raiz. 
+# Navegando sobre os diretórios
 
-## cd 
-Troca de diretório.
+## 
 
-# Criação de Arquivos e Listagem de Conteúdos do Diretório
