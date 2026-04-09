@@ -28,8 +28,6 @@ Apresenta o seu nome de usuário e também é responsável por exibir o usuário
 
 # Explorando a Hierarquia de Diretórios
 
-No Linux, o conceito de unidades, como visto no Windows (Ex. C:, D:, etc.), não se aplica. Em vez disso, há um diretório raiz (“/”), do qual se ramificam vários subdiretórios, que descrevemos abaixo:
-
 - **/bin:** O diretório bin armazena executáveis de comandos básicos do sistema (su, tar, cat, rm, pwd, etc).
 - **/boot:** Arquivos para inicialização do sistema.
 - **/dev:** Arquivos para dispositivos. Contém os dispositivos (links para dispositivos do sistema, como CD, HD, disquetes, etc).
@@ -43,13 +41,9 @@ No Linux, o conceito de unidades, como visto no Windows (Ex. C:, D:, etc.), não
 
 # Listando arquivos e diretórios 
 
+- **ls:** Para ver o conteúdo do seu diretório atual, use **ls**. Isso vai listar os arquivos e diretórios no seu diretório de trabalho atual. 
 - **ls -l:** Fornece uma listagem no formato "longo". Você verá detalhes adicionais como permissões de arquivo, proprietário, tamanho e data de modificação.
-
-## ls
-Para ver o conteúdo do seu diretório atual, use **ls**. Isso vai listar os arquivos e diretórios no seu diretório de trabalho atual. 
-
-## ls ~
-Este comando lista o conteúdo do seu diretório home, que pode ser diferente do seu diretório atual. 
+- **ls ~ :** Este comando lista o conteúdo do seu diretório home, que pode ser diferente do seu diretório atual. 
 
 Entender a distinção entre seu diretório de trabalho atual e seu diretório doméstico é importante para navegar efizcamente pelo sistema de arquivos Linux. 
 
