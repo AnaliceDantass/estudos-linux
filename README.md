@@ -36,3 +36,8 @@ Entender a distinção entre seu diretório de trabalho atual e seu diretório d
 
 # Navegando pelo Sistema de Arquivos
 O Linux usa o que chamamos de "sistema de arquivos hierárquico". Pense nisso como uma grande árvore com galhos. O tronco principal é chamado de "diretório raiz", representado por única barra transversal. Todos os outros diretórios e arquivos se ramificam a partir dessa raiz. 
+
+## cd 
+Troca de diretório.
+
+# Criação de Arquivos e Listagem de Conteúdos do Diretório
