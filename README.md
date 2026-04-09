@@ -16,6 +16,6 @@ No linux, os usuários são armazenados em grupos. Esses grupos determinam permi
 ## id
 Ao rodar o comando **id**, você terá acesso à informações relacionadas ao usuário que está atualmente autenticado na sessão. 
 
-- **uid:**
-- **gid:**
-- **groups:**
+- **uid:** ID de usuário;
+- **gid:** ID principal do grupo;
+- **groups:** todos os grupos do usuário.
