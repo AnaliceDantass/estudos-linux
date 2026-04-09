@@ -19,3 +19,6 @@ Ao rodar o comando **id**, você terá acesso à informações relacionadas ao u
 - **uid:** ID de usuário;
 - **gid:** ID principal do grupo;
 - **groups:** todos os grupos do usuário.
+
+## id -un
+Apresenta o seu nome de usuário e também é responsável por exibir o usuário atual.
